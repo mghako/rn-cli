@@ -7,8 +7,8 @@ const LoginScreen = () => {
 
     const {onLogin} = useAuth();
     const [loginFormData,setLoginFormData] = useState({
-        email: 'ap.system@panasiatower.net',
-        password: 'Apollo123!@#',
+        email: '',
+        password: '',
     })
 
     const handleLogin = async () => {
